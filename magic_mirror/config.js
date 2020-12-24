@@ -15,6 +15,7 @@ var config = {
     address: "", // Empty as running in a docker container.
     port: 8080, // Update port in HASS.IO configuration and not here.
     ipWhitelist: [], // Empty as in docker container, ACL from the host.
+    arch: [ "aarch64", "amd64", "armhf", "i386" ]
 
     //
     // The settings below are for a basic setup, please modifiy as needed. 
